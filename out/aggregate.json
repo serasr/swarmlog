@@ -1,0 +1,538 @@
+{
+ "false_positive_baseline": {
+  "seeds": 12,
+  "mean_structural_findings": 0,
+  "max_structural_findings": 0,
+  "rule_hits": {}
+ },
+ "aggregate": {
+  "careful|informed|0": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|informed|1": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 16,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|informed|2": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.75,
+   "mean_structural_findings": 10.833333333333334,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|informed|3": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 1.0,
+   "mean_structural_findings": 6,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|informed|4": {
+   "n": 12,
+   "detection_rate": 0.75,
+   "detection_sd": 0.4330127018922193,
+   "implication_rate": 0.75,
+   "mean_structural_findings": 2.5,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|informed|5": {
+   "n": 12,
+   "detection_rate": 0.3333333333333333,
+   "detection_sd": 0.4714045207910317,
+   "implication_rate": 0.3333333333333333,
+   "mean_structural_findings": 0.8333333333333334,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|informed|6": {
+   "n": 12,
+   "detection_rate": 0.08333333333333333,
+   "detection_sd": 0.2763853991962833,
+   "implication_rate": 0.08333333333333333,
+   "mean_structural_findings": 0.16666666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|informed|7": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|informed|8": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|informed|9": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|informed|10": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|random|0": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|random|1": {
+   "n": 12,
+   "detection_rate": 0.5833333333333334,
+   "detection_sd": 0.4930066485916347,
+   "implication_rate": 0.3333333333333333,
+   "mean_structural_findings": 9.166666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|random|2": {
+   "n": 12,
+   "detection_rate": 0.75,
+   "detection_sd": 0.4330127018922193,
+   "implication_rate": 0.3333333333333333,
+   "mean_structural_findings": 12.5,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|random|3": {
+   "n": 12,
+   "detection_rate": 0.75,
+   "detection_sd": 0.4330127018922193,
+   "implication_rate": 0.4166666666666667,
+   "mean_structural_findings": 11.666666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|random|4": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.5833333333333334,
+   "mean_structural_findings": 14.666666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|random|5": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.5833333333333334,
+   "mean_structural_findings": 14.666666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|random|6": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.75,
+   "mean_structural_findings": 11.333333333333334,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|random|7": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.5833333333333334,
+   "mean_structural_findings": 8.666666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|random|8": {
+   "n": 12,
+   "detection_rate": 0.8333333333333334,
+   "detection_sd": 0.37267799624996495,
+   "implication_rate": 0.4166666666666667,
+   "mean_structural_findings": 6,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|random|9": {
+   "n": 12,
+   "detection_rate": 0.3333333333333333,
+   "detection_sd": 0.4714045207910317,
+   "implication_rate": 0.25,
+   "mean_structural_findings": 1.1666666666666667,
+   "mean_closure_size": 5.166666666666667
+  },
+  "careful|random|10": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|informed|0": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|informed|1": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 16,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|informed|2": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.75,
+   "mean_structural_findings": 10.833333333333334,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|informed|3": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 1.0,
+   "mean_structural_findings": 6,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|informed|4": {
+   "n": 12,
+   "detection_rate": 0.75,
+   "detection_sd": 0.4330127018922193,
+   "implication_rate": 0.75,
+   "mean_structural_findings": 2.5,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|informed|5": {
+   "n": 12,
+   "detection_rate": 0.3333333333333333,
+   "detection_sd": 0.4714045207910317,
+   "implication_rate": 0.3333333333333333,
+   "mean_structural_findings": 0.8333333333333334,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|informed|6": {
+   "n": 12,
+   "detection_rate": 0.08333333333333333,
+   "detection_sd": 0.2763853991962833,
+   "implication_rate": 0.08333333333333333,
+   "mean_structural_findings": 0.16666666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|informed|7": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|informed|8": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|informed|9": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|informed|10": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|random|0": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|random|1": {
+   "n": 12,
+   "detection_rate": 0.5833333333333334,
+   "detection_sd": 0.4930066485916347,
+   "implication_rate": 0.3333333333333333,
+   "mean_structural_findings": 9.166666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|random|2": {
+   "n": 12,
+   "detection_rate": 0.75,
+   "detection_sd": 0.4330127018922193,
+   "implication_rate": 0.3333333333333333,
+   "mean_structural_findings": 12.5,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|random|3": {
+   "n": 12,
+   "detection_rate": 0.75,
+   "detection_sd": 0.4330127018922193,
+   "implication_rate": 0.4166666666666667,
+   "mean_structural_findings": 11.666666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|random|4": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.5833333333333334,
+   "mean_structural_findings": 14.666666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|random|5": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.5833333333333334,
+   "mean_structural_findings": 14.666666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|random|6": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.75,
+   "mean_structural_findings": 11.333333333333334,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|random|7": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.5833333333333334,
+   "mean_structural_findings": 8.666666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|random|8": {
+   "n": 12,
+   "detection_rate": 0.8333333333333334,
+   "detection_sd": 0.37267799624996495,
+   "implication_rate": 0.4166666666666667,
+   "mean_structural_findings": 6,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|random|9": {
+   "n": 12,
+   "detection_rate": 0.3333333333333333,
+   "detection_sd": 0.4714045207910317,
+   "implication_rate": 0.25,
+   "mean_structural_findings": 1.1666666666666667,
+   "mean_closure_size": 5.166666666666667
+  },
+  "forging|random|10": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|informed|0": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|informed|1": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 16,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|informed|2": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.75,
+   "mean_structural_findings": 12.25,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|informed|3": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 1.0,
+   "mean_structural_findings": 9,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|informed|4": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 1.0,
+   "mean_structural_findings": 9,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|informed|5": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 1.0,
+   "mean_structural_findings": 9,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|informed|6": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 1.0,
+   "mean_structural_findings": 9,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|informed|7": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 1.0,
+   "mean_structural_findings": 9,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|informed|8": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 1.0,
+   "mean_structural_findings": 9,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|informed|9": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 1.0,
+   "mean_structural_findings": 9,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|informed|10": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 1.0,
+   "mean_structural_findings": 9,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|random|0": {
+   "n": 12,
+   "detection_rate": 0.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.0,
+   "mean_structural_findings": 0,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|random|1": {
+   "n": 12,
+   "detection_rate": 0.5833333333333334,
+   "detection_sd": 0.4930066485916347,
+   "implication_rate": 0.3333333333333333,
+   "mean_structural_findings": 9.75,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|random|2": {
+   "n": 12,
+   "detection_rate": 0.75,
+   "detection_sd": 0.4330127018922193,
+   "implication_rate": 0.3333333333333333,
+   "mean_structural_findings": 13.083333333333334,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|random|3": {
+   "n": 12,
+   "detection_rate": 0.75,
+   "detection_sd": 0.4330127018922193,
+   "implication_rate": 0.4166666666666667,
+   "mean_structural_findings": 12.916666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|random|4": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.5833333333333334,
+   "mean_structural_findings": 16.916666666666668,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|random|5": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.5833333333333334,
+   "mean_structural_findings": 16.916666666666668,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|random|6": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.8333333333333334,
+   "mean_structural_findings": 14.666666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|random|7": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 0.9166666666666666,
+   "mean_structural_findings": 13.416666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|random|8": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 1.0,
+   "mean_structural_findings": 11.583333333333334,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|random|9": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 1.0,
+   "mean_structural_findings": 9.166666666666666,
+   "mean_closure_size": 5.166666666666667
+  },
+  "naive|random|10": {
+   "n": 12,
+   "detection_rate": 1.0,
+   "detection_sd": 0.0,
+   "implication_rate": 1.0,
+   "mean_structural_findings": 9,
+   "mean_closure_size": 5.166666666666667
+  }
+ }
+}

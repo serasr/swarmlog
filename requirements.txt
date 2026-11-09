@@ -1,0 +1,6 @@
+# core (everything except the live cover-story run)
+matplotlib>=3.8
+numpy>=1.26
+
+# only needed for: python3 run_cover_story.py --live
+anthropic>=0.40

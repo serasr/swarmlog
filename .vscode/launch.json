@@ -1,0 +1,58 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Tests: checker",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/tests/test_checker.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Tests: cover story",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/tests/test_cover_story.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Experiment: main sweep",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_experiment.py",
+      "args": ["--agents", "10", "--seeds", "12", "--outdir", "out"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Experiment: leak sensitivity",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/sensitivity_leak.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Experiment: competence curve (free)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_cover_story.py",
+      "args": ["--agents", "10", "--k", "6", "--seeds", "40"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Experiment: cover story LIVE (needs key)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_cover_story.py",
+      "args": ["--agents", "10", "--k", "6", "--seeds", "40",
+               "--live", "--trials", "10", "--model", "claude-sonnet-4-5"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

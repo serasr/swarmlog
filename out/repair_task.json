@@ -1,0 +1,21 @@
+{
+ "model": "claude-sonnet-5-5",
+ "trials_scored": 25,
+ "trials_discarded": 0,
+ "parse_failures": 0,
+ "consistency_rate": 0.92,
+ "consistency_ci95": [
+  0.7503348787704218,
+  0.977780066308908
+ ],
+ "detection_rate": 0.07999999999999996,
+ "detection_ci95": [
+  0.022219933691091986,
+  0.24966512122957818
+ ],
+ "mean_dangling": 0.16,
+ "rule_tally": {
+  "ORPHAN_BODY_REF": 4
+ },
+ "estimated_competence": 0.9907692307692307
+}

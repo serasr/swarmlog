@@ -1,0 +1,793 @@
+seed,topology,n_agents,strategy,selection,k,frac,n_findings,n_structural,tamper_detected,attack_implicated,closure_size,rules
+0,random,10,naive,informed,0,0.0,0,0,False,False,4,{}
+1,random,10,naive,informed,0,0.0,0,0,False,False,4,{}
+2,random,10,naive,informed,0,0.0,0,0,False,False,5,{}
+3,random,10,naive,informed,0,0.0,0,0,False,False,6,{}
+4,random,10,naive,informed,0,0.0,0,0,False,False,5,{}
+5,random,10,naive,informed,0,0.0,0,0,False,False,7,{}
+6,random,10,naive,informed,0,0.0,0,0,False,False,6,{}
+7,random,10,naive,informed,0,0.0,0,0,False,False,5,{}
+8,random,10,naive,informed,0,0.0,0,0,False,False,5,{}
+9,random,10,naive,informed,0,0.0,0,0,False,False,6,{}
+10,random,10,naive,informed,0,0.0,0,0,False,False,4,{}
+11,random,10,naive,informed,0,0.0,0,0,False,False,5,{}
+0,random,10,naive,informed,1,0.1,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+1,random,10,naive,informed,1,0.1,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+2,random,10,naive,informed,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,naive,informed,1,0.1,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,naive,informed,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+5,random,10,naive,informed,1,0.1,16,16,True,False,7,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+6,random,10,naive,informed,1,0.1,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+7,random,10,naive,informed,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+8,random,10,naive,informed,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+9,random,10,naive,informed,1,0.1,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+10,random,10,naive,informed,1,0.1,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+11,random,10,naive,informed,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+0,random,10,naive,informed,2,0.2,8,8,True,False,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+1,random,10,naive,informed,2,0.2,8,8,True,False,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+2,random,10,naive,informed,2,0.2,8,8,True,False,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+3,random,10,naive,informed,2,0.2,15,14,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+4,random,10,naive,informed,2,0.2,15,14,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,informed,2,0.2,18,17,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 1}"
+6,random,10,naive,informed,2,0.2,15,14,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+7,random,10,naive,informed,2,0.2,12,11,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+8,random,10,naive,informed,2,0.2,15,14,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+9,random,10,naive,informed,2,0.2,12,11,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+10,random,10,naive,informed,2,0.2,15,14,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,informed,2,0.2,15,14,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+0,random,10,naive,informed,3,0.3,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+1,random,10,naive,informed,3,0.3,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+2,random,10,naive,informed,3,0.3,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+3,random,10,naive,informed,3,0.3,14,12,True,True,6,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+4,random,10,naive,informed,3,0.3,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,informed,3,0.3,17,15,True,True,7,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+6,random,10,naive,informed,3,0.3,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+7,random,10,naive,informed,3,0.3,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+8,random,10,naive,informed,3,0.3,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+9,random,10,naive,informed,3,0.3,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+10,random,10,naive,informed,3,0.3,7,6,True,True,4,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,informed,3,0.3,17,15,True,True,5,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+0,random,10,naive,informed,4,0.4,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+1,random,10,naive,informed,4,0.4,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+2,random,10,naive,informed,4,0.4,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+3,random,10,naive,informed,4,0.4,14,12,True,True,6,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+4,random,10,naive,informed,4,0.4,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,informed,4,0.4,17,15,True,True,7,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+6,random,10,naive,informed,4,0.4,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+7,random,10,naive,informed,4,0.4,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+8,random,10,naive,informed,4,0.4,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+9,random,10,naive,informed,4,0.4,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+10,random,10,naive,informed,4,0.4,7,6,True,True,4,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,informed,4,0.4,17,15,True,True,5,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+0,random,10,naive,informed,5,0.5,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+1,random,10,naive,informed,5,0.5,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+2,random,10,naive,informed,5,0.5,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+3,random,10,naive,informed,5,0.5,14,12,True,True,6,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+4,random,10,naive,informed,5,0.5,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,informed,5,0.5,17,15,True,True,7,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+6,random,10,naive,informed,5,0.5,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+7,random,10,naive,informed,5,0.5,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+8,random,10,naive,informed,5,0.5,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+9,random,10,naive,informed,5,0.5,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+10,random,10,naive,informed,5,0.5,7,6,True,True,4,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,informed,5,0.5,17,15,True,True,5,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+0,random,10,naive,informed,6,0.6,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+1,random,10,naive,informed,6,0.6,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+2,random,10,naive,informed,6,0.6,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+3,random,10,naive,informed,6,0.6,14,12,True,True,6,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+4,random,10,naive,informed,6,0.6,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,informed,6,0.6,17,15,True,True,7,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+6,random,10,naive,informed,6,0.6,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+7,random,10,naive,informed,6,0.6,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+8,random,10,naive,informed,6,0.6,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+9,random,10,naive,informed,6,0.6,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+10,random,10,naive,informed,6,0.6,7,6,True,True,4,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,informed,6,0.6,17,15,True,True,5,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+0,random,10,naive,informed,7,0.7,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+1,random,10,naive,informed,7,0.7,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+2,random,10,naive,informed,7,0.7,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+3,random,10,naive,informed,7,0.7,14,12,True,True,6,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+4,random,10,naive,informed,7,0.7,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,informed,7,0.7,17,15,True,True,7,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+6,random,10,naive,informed,7,0.7,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+7,random,10,naive,informed,7,0.7,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+8,random,10,naive,informed,7,0.7,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+9,random,10,naive,informed,7,0.7,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+10,random,10,naive,informed,7,0.7,7,6,True,True,4,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,informed,7,0.7,17,15,True,True,5,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+0,random,10,naive,informed,8,0.8,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+1,random,10,naive,informed,8,0.8,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+2,random,10,naive,informed,8,0.8,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+3,random,10,naive,informed,8,0.8,14,12,True,True,6,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+4,random,10,naive,informed,8,0.8,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,informed,8,0.8,17,15,True,True,7,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+6,random,10,naive,informed,8,0.8,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+7,random,10,naive,informed,8,0.8,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+8,random,10,naive,informed,8,0.8,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+9,random,10,naive,informed,8,0.8,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+10,random,10,naive,informed,8,0.8,7,6,True,True,4,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,informed,8,0.8,17,15,True,True,5,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+0,random,10,naive,informed,9,0.9,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+1,random,10,naive,informed,9,0.9,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+2,random,10,naive,informed,9,0.9,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+3,random,10,naive,informed,9,0.9,14,12,True,True,6,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+4,random,10,naive,informed,9,0.9,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,informed,9,0.9,17,15,True,True,7,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+6,random,10,naive,informed,9,0.9,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+7,random,10,naive,informed,9,0.9,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+8,random,10,naive,informed,9,0.9,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+9,random,10,naive,informed,9,0.9,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+10,random,10,naive,informed,9,0.9,7,6,True,True,4,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,informed,9,0.9,17,15,True,True,5,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+0,random,10,naive,informed,10,1.0,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+1,random,10,naive,informed,10,1.0,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+2,random,10,naive,informed,10,1.0,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+3,random,10,naive,informed,10,1.0,14,12,True,True,6,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+4,random,10,naive,informed,10,1.0,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,informed,10,1.0,17,15,True,True,7,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+6,random,10,naive,informed,10,1.0,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+7,random,10,naive,informed,10,1.0,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+8,random,10,naive,informed,10,1.0,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+9,random,10,naive,informed,10,1.0,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+10,random,10,naive,informed,10,1.0,7,6,True,True,4,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,informed,10,1.0,17,15,True,True,5,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+0,random,10,naive,random,0,0.0,0,0,False,False,4,{}
+1,random,10,naive,random,0,0.0,0,0,False,False,4,{}
+2,random,10,naive,random,0,0.0,0,0,False,False,5,{}
+3,random,10,naive,random,0,0.0,0,0,False,False,6,{}
+4,random,10,naive,random,0,0.0,0,0,False,False,5,{}
+5,random,10,naive,random,0,0.0,0,0,False,False,7,{}
+6,random,10,naive,random,0,0.0,0,0,False,False,6,{}
+7,random,10,naive,random,0,0.0,0,0,False,False,5,{}
+8,random,10,naive,random,0,0.0,0,0,False,False,5,{}
+9,random,10,naive,random,0,0.0,0,0,False,False,6,{}
+10,random,10,naive,random,0,0.0,0,0,False,False,4,{}
+11,random,10,naive,random,0,0.0,0,0,False,False,5,{}
+0,random,10,naive,random,1,0.1,0,0,False,False,4,{}
+1,random,10,naive,random,1,0.1,16,15,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 1}"
+2,random,10,naive,random,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,naive,random,1,0.1,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,naive,random,1,0.1,0,0,False,False,5,{}
+5,random,10,naive,random,1,0.1,19,18,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 1}"
+6,random,10,naive,random,1,0.1,16,15,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 1}"
+7,random,10,naive,random,1,0.1,22,21,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 1}"
+8,random,10,naive,random,1,0.1,0,0,False,False,5,{}
+9,random,10,naive,random,1,0.1,0,0,False,False,6,{}
+10,random,10,naive,random,1,0.1,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+11,random,10,naive,random,1,0.1,0,0,False,False,5,{}
+0,random,10,naive,random,2,0.2,0,0,False,False,4,{}
+1,random,10,naive,random,2,0.2,28,27,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 1}"
+2,random,10,naive,random,2,0.2,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,naive,random,2,0.2,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,naive,random,2,0.2,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+5,random,10,naive,random,2,0.2,19,18,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 1}"
+6,random,10,naive,random,2,0.2,12,11,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+7,random,10,naive,random,2,0.2,22,21,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 1}"
+8,random,10,naive,random,2,0.2,0,0,False,False,5,{}
+9,random,10,naive,random,2,0.2,0,0,False,False,6,{}
+10,random,10,naive,random,2,0.2,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+11,random,10,naive,random,2,0.2,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+0,random,10,naive,random,3,0.3,0,0,False,False,4,{}
+1,random,10,naive,random,3,0.3,28,27,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 1}"
+2,random,10,naive,random,3,0.3,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,naive,random,3,0.3,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,naive,random,3,0.3,15,14,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,random,3,0.3,19,18,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 1}"
+6,random,10,naive,random,3,0.3,12,11,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+7,random,10,naive,random,3,0.3,22,21,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 1}"
+8,random,10,naive,random,3,0.3,0,0,False,False,5,{}
+9,random,10,naive,random,3,0.3,0,0,False,False,6,{}
+10,random,10,naive,random,3,0.3,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+11,random,10,naive,random,3,0.3,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+0,random,10,naive,random,4,0.4,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+1,random,10,naive,random,4,0.4,28,27,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 1}"
+2,random,10,naive,random,4,0.4,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,naive,random,4,0.4,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,naive,random,4,0.4,15,14,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,random,4,0.4,19,18,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 1}"
+6,random,10,naive,random,4,0.4,12,11,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+7,random,10,naive,random,4,0.4,22,21,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 1}"
+8,random,10,naive,random,4,0.4,19,18,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 1}"
+9,random,10,naive,random,4,0.4,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+10,random,10,naive,random,4,0.4,15,14,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,random,4,0.4,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+0,random,10,naive,random,5,0.5,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+1,random,10,naive,random,5,0.5,28,27,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 1}"
+2,random,10,naive,random,5,0.5,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,naive,random,5,0.5,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,naive,random,5,0.5,15,14,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,random,5,0.5,19,18,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 1}"
+6,random,10,naive,random,5,0.5,12,11,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+7,random,10,naive,random,5,0.5,22,21,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 1}"
+8,random,10,naive,random,5,0.5,19,18,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 1}"
+9,random,10,naive,random,5,0.5,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+10,random,10,naive,random,5,0.5,15,14,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,random,5,0.5,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+0,random,10,naive,random,6,0.6,8,8,True,False,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+1,random,10,naive,random,6,0.6,28,27,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 1}"
+2,random,10,naive,random,6,0.6,15,14,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+3,random,10,naive,random,6,0.6,15,14,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+4,random,10,naive,random,6,0.6,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,random,6,0.6,15,14,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+6,random,10,naive,random,6,0.6,12,11,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+7,random,10,naive,random,6,0.6,22,21,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 1}"
+8,random,10,naive,random,6,0.6,15,14,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+9,random,10,naive,random,6,0.6,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+10,random,10,naive,random,6,0.6,15,14,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,random,6,0.6,18,17,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 1}"
+0,random,10,naive,random,7,0.7,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+1,random,10,naive,random,7,0.7,28,27,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 1}"
+2,random,10,naive,random,7,0.7,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+3,random,10,naive,random,7,0.7,15,14,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+4,random,10,naive,random,7,0.7,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,random,7,0.7,15,14,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+6,random,10,naive,random,7,0.7,12,11,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+7,random,10,naive,random,7,0.7,22,21,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 1}"
+8,random,10,naive,random,7,0.7,15,14,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+9,random,10,naive,random,7,0.7,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+10,random,10,naive,random,7,0.7,15,14,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,random,7,0.7,17,15,True,True,5,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+0,random,10,naive,random,8,0.8,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+1,random,10,naive,random,8,0.8,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+2,random,10,naive,random,8,0.8,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+3,random,10,naive,random,8,0.8,15,14,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+4,random,10,naive,random,8,0.8,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,random,8,0.8,15,14,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+6,random,10,naive,random,8,0.8,12,11,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+7,random,10,naive,random,8,0.8,38,36,True,True,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 16, ""SEQ_GAP"": 2}"
+8,random,10,naive,random,8,0.8,15,14,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+9,random,10,naive,random,8,0.8,12,11,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+10,random,10,naive,random,8,0.8,7,6,True,True,4,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,random,8,0.8,17,15,True,True,5,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+0,random,10,naive,random,9,0.9,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+1,random,10,naive,random,9,0.9,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+2,random,10,naive,random,9,0.9,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+3,random,10,naive,random,9,0.9,14,12,True,True,6,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+4,random,10,naive,random,9,0.9,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,random,9,0.9,17,15,True,True,7,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+6,random,10,naive,random,9,0.9,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+7,random,10,naive,random,9,0.9,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+8,random,10,naive,random,9,0.9,15,14,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+9,random,10,naive,random,9,0.9,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+10,random,10,naive,random,9,0.9,7,6,True,True,4,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,random,9,0.9,17,15,True,True,5,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+0,random,10,naive,random,10,1.0,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+1,random,10,naive,random,10,1.0,4,3,True,True,4,"{""DANGLING_PROVENANCE"": 1, ""ORPHAN_BODY_REF"": 2, ""SEQ_GAP"": 1}"
+2,random,10,naive,random,10,1.0,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+3,random,10,naive,random,10,1.0,14,12,True,True,6,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+4,random,10,naive,random,10,1.0,7,6,True,True,5,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+5,random,10,naive,random,10,1.0,17,15,True,True,7,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+6,random,10,naive,random,10,1.0,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+7,random,10,naive,random,10,1.0,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+8,random,10,naive,random,10,1.0,14,12,True,True,5,"{""DANGLING_PROVENANCE"": 4, ""ORPHAN_BODY_REF"": 8, ""SEQ_GAP"": 2}"
+9,random,10,naive,random,10,1.0,11,9,True,True,6,"{""DANGLING_PROVENANCE"": 3, ""ORPHAN_BODY_REF"": 6, ""SEQ_GAP"": 2}"
+10,random,10,naive,random,10,1.0,7,6,True,True,4,"{""DANGLING_PROVENANCE"": 2, ""ORPHAN_BODY_REF"": 4, ""SEQ_GAP"": 1}"
+11,random,10,naive,random,10,1.0,17,15,True,True,5,"{""DANGLING_PROVENANCE"": 5, ""ORPHAN_BODY_REF"": 10, ""SEQ_GAP"": 2}"
+0,random,10,careful,informed,0,0.0,0,0,False,False,4,{}
+1,random,10,careful,informed,0,0.0,0,0,False,False,4,{}
+2,random,10,careful,informed,0,0.0,0,0,False,False,5,{}
+3,random,10,careful,informed,0,0.0,0,0,False,False,6,{}
+4,random,10,careful,informed,0,0.0,0,0,False,False,5,{}
+5,random,10,careful,informed,0,0.0,0,0,False,False,7,{}
+6,random,10,careful,informed,0,0.0,0,0,False,False,6,{}
+7,random,10,careful,informed,0,0.0,0,0,False,False,5,{}
+8,random,10,careful,informed,0,0.0,0,0,False,False,5,{}
+9,random,10,careful,informed,0,0.0,0,0,False,False,6,{}
+10,random,10,careful,informed,0,0.0,0,0,False,False,4,{}
+11,random,10,careful,informed,0,0.0,0,0,False,False,5,{}
+0,random,10,careful,informed,1,0.1,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+1,random,10,careful,informed,1,0.1,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+2,random,10,careful,informed,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,careful,informed,1,0.1,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,careful,informed,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+5,random,10,careful,informed,1,0.1,16,16,True,False,7,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+6,random,10,careful,informed,1,0.1,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+7,random,10,careful,informed,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+8,random,10,careful,informed,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+9,random,10,careful,informed,1,0.1,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+10,random,10,careful,informed,1,0.1,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+11,random,10,careful,informed,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+0,random,10,careful,informed,2,0.2,8,8,True,False,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+1,random,10,careful,informed,2,0.2,8,8,True,False,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+2,random,10,careful,informed,2,0.2,8,8,True,False,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+3,random,10,careful,informed,2,0.2,12,12,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+4,random,10,careful,informed,2,0.2,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+5,random,10,careful,informed,2,0.2,14,14,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 6}"
+6,random,10,careful,informed,2,0.2,12,12,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+7,random,10,careful,informed,2,0.2,10,10,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+8,random,10,careful,informed,2,0.2,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+9,random,10,careful,informed,2,0.2,10,10,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+10,random,10,careful,informed,2,0.2,12,12,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+11,random,10,careful,informed,2,0.2,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+0,random,10,careful,informed,3,0.3,2,2,True,True,4,"{""ORPHAN_BODY_REF"": 2}"
+1,random,10,careful,informed,3,0.3,2,2,True,True,4,"{""ORPHAN_BODY_REF"": 2}"
+2,random,10,careful,informed,3,0.3,4,4,True,True,5,"{""ORPHAN_BODY_REF"": 4}"
+3,random,10,careful,informed,3,0.3,8,8,True,True,6,"{""ORPHAN_BODY_REF"": 8}"
+4,random,10,careful,informed,3,0.3,4,4,True,True,5,"{""ORPHAN_BODY_REF"": 4}"
+5,random,10,careful,informed,3,0.3,10,10,True,True,7,"{""ORPHAN_BODY_REF"": 10}"
+6,random,10,careful,informed,3,0.3,6,6,True,True,6,"{""ORPHAN_BODY_REF"": 6}"
+7,random,10,careful,informed,3,0.3,8,8,True,True,5,"{""ORPHAN_BODY_REF"": 8}"
+8,random,10,careful,informed,3,0.3,8,8,True,True,5,"{""ORPHAN_BODY_REF"": 8}"
+9,random,10,careful,informed,3,0.3,6,6,True,True,6,"{""ORPHAN_BODY_REF"": 6}"
+10,random,10,careful,informed,3,0.3,4,4,True,True,4,"{""ORPHAN_BODY_REF"": 4}"
+11,random,10,careful,informed,3,0.3,10,10,True,True,5,"{""ORPHAN_BODY_REF"": 10}"
+0,random,10,careful,informed,4,0.4,0,0,False,False,4,{}
+1,random,10,careful,informed,4,0.4,0,0,False,False,4,{}
+2,random,10,careful,informed,4,0.4,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+3,random,10,careful,informed,4,0.4,4,4,True,True,6,"{""ORPHAN_BODY_REF"": 4}"
+4,random,10,careful,informed,4,0.4,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+5,random,10,careful,informed,4,0.4,6,6,True,True,7,"{""ORPHAN_BODY_REF"": 6}"
+6,random,10,careful,informed,4,0.4,4,4,True,True,6,"{""ORPHAN_BODY_REF"": 4}"
+7,random,10,careful,informed,4,0.4,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+8,random,10,careful,informed,4,0.4,4,4,True,True,5,"{""ORPHAN_BODY_REF"": 4}"
+9,random,10,careful,informed,4,0.4,4,4,True,True,6,"{""ORPHAN_BODY_REF"": 4}"
+10,random,10,careful,informed,4,0.4,0,0,False,False,4,{}
+11,random,10,careful,informed,4,0.4,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+0,random,10,careful,informed,5,0.5,0,0,False,False,4,{}
+1,random,10,careful,informed,5,0.5,0,0,False,False,4,{}
+2,random,10,careful,informed,5,0.5,0,0,False,False,5,{}
+3,random,10,careful,informed,5,0.5,2,2,True,True,6,"{""ORPHAN_BODY_REF"": 2}"
+4,random,10,careful,informed,5,0.5,0,0,False,False,5,{}
+5,random,10,careful,informed,5,0.5,4,4,True,True,7,"{""ORPHAN_BODY_REF"": 4}"
+6,random,10,careful,informed,5,0.5,2,2,True,True,6,"{""ORPHAN_BODY_REF"": 2}"
+7,random,10,careful,informed,5,0.5,0,0,False,False,5,{}
+8,random,10,careful,informed,5,0.5,0,0,False,False,5,{}
+9,random,10,careful,informed,5,0.5,2,2,True,True,6,"{""ORPHAN_BODY_REF"": 2}"
+10,random,10,careful,informed,5,0.5,0,0,False,False,4,{}
+11,random,10,careful,informed,5,0.5,0,0,False,False,5,{}
+0,random,10,careful,informed,6,0.6,0,0,False,False,4,{}
+1,random,10,careful,informed,6,0.6,0,0,False,False,4,{}
+2,random,10,careful,informed,6,0.6,0,0,False,False,5,{}
+3,random,10,careful,informed,6,0.6,0,0,False,False,6,{}
+4,random,10,careful,informed,6,0.6,0,0,False,False,5,{}
+5,random,10,careful,informed,6,0.6,2,2,True,True,7,"{""ORPHAN_BODY_REF"": 2}"
+6,random,10,careful,informed,6,0.6,0,0,False,False,6,{}
+7,random,10,careful,informed,6,0.6,0,0,False,False,5,{}
+8,random,10,careful,informed,6,0.6,0,0,False,False,5,{}
+9,random,10,careful,informed,6,0.6,0,0,False,False,6,{}
+10,random,10,careful,informed,6,0.6,0,0,False,False,4,{}
+11,random,10,careful,informed,6,0.6,0,0,False,False,5,{}
+0,random,10,careful,informed,7,0.7,0,0,False,False,4,{}
+1,random,10,careful,informed,7,0.7,0,0,False,False,4,{}
+2,random,10,careful,informed,7,0.7,0,0,False,False,5,{}
+3,random,10,careful,informed,7,0.7,0,0,False,False,6,{}
+4,random,10,careful,informed,7,0.7,0,0,False,False,5,{}
+5,random,10,careful,informed,7,0.7,0,0,False,False,7,{}
+6,random,10,careful,informed,7,0.7,0,0,False,False,6,{}
+7,random,10,careful,informed,7,0.7,0,0,False,False,5,{}
+8,random,10,careful,informed,7,0.7,0,0,False,False,5,{}
+9,random,10,careful,informed,7,0.7,0,0,False,False,6,{}
+10,random,10,careful,informed,7,0.7,0,0,False,False,4,{}
+11,random,10,careful,informed,7,0.7,0,0,False,False,5,{}
+0,random,10,careful,informed,8,0.8,0,0,False,False,4,{}
+1,random,10,careful,informed,8,0.8,0,0,False,False,4,{}
+2,random,10,careful,informed,8,0.8,0,0,False,False,5,{}
+3,random,10,careful,informed,8,0.8,0,0,False,False,6,{}
+4,random,10,careful,informed,8,0.8,0,0,False,False,5,{}
+5,random,10,careful,informed,8,0.8,0,0,False,False,7,{}
+6,random,10,careful,informed,8,0.8,0,0,False,False,6,{}
+7,random,10,careful,informed,8,0.8,0,0,False,False,5,{}
+8,random,10,careful,informed,8,0.8,0,0,False,False,5,{}
+9,random,10,careful,informed,8,0.8,0,0,False,False,6,{}
+10,random,10,careful,informed,8,0.8,0,0,False,False,4,{}
+11,random,10,careful,informed,8,0.8,0,0,False,False,5,{}
+0,random,10,careful,informed,9,0.9,0,0,False,False,4,{}
+1,random,10,careful,informed,9,0.9,0,0,False,False,4,{}
+2,random,10,careful,informed,9,0.9,0,0,False,False,5,{}
+3,random,10,careful,informed,9,0.9,0,0,False,False,6,{}
+4,random,10,careful,informed,9,0.9,0,0,False,False,5,{}
+5,random,10,careful,informed,9,0.9,0,0,False,False,7,{}
+6,random,10,careful,informed,9,0.9,0,0,False,False,6,{}
+7,random,10,careful,informed,9,0.9,0,0,False,False,5,{}
+8,random,10,careful,informed,9,0.9,0,0,False,False,5,{}
+9,random,10,careful,informed,9,0.9,0,0,False,False,6,{}
+10,random,10,careful,informed,9,0.9,0,0,False,False,4,{}
+11,random,10,careful,informed,9,0.9,0,0,False,False,5,{}
+0,random,10,careful,informed,10,1.0,0,0,False,False,4,{}
+1,random,10,careful,informed,10,1.0,0,0,False,False,4,{}
+2,random,10,careful,informed,10,1.0,0,0,False,False,5,{}
+3,random,10,careful,informed,10,1.0,0,0,False,False,6,{}
+4,random,10,careful,informed,10,1.0,0,0,False,False,5,{}
+5,random,10,careful,informed,10,1.0,0,0,False,False,7,{}
+6,random,10,careful,informed,10,1.0,0,0,False,False,6,{}
+7,random,10,careful,informed,10,1.0,0,0,False,False,5,{}
+8,random,10,careful,informed,10,1.0,0,0,False,False,5,{}
+9,random,10,careful,informed,10,1.0,0,0,False,False,6,{}
+10,random,10,careful,informed,10,1.0,0,0,False,False,4,{}
+11,random,10,careful,informed,10,1.0,0,0,False,False,5,{}
+0,random,10,careful,random,0,0.0,0,0,False,False,4,{}
+1,random,10,careful,random,0,0.0,0,0,False,False,4,{}
+2,random,10,careful,random,0,0.0,0,0,False,False,5,{}
+3,random,10,careful,random,0,0.0,0,0,False,False,6,{}
+4,random,10,careful,random,0,0.0,0,0,False,False,5,{}
+5,random,10,careful,random,0,0.0,0,0,False,False,7,{}
+6,random,10,careful,random,0,0.0,0,0,False,False,6,{}
+7,random,10,careful,random,0,0.0,0,0,False,False,5,{}
+8,random,10,careful,random,0,0.0,0,0,False,False,5,{}
+9,random,10,careful,random,0,0.0,0,0,False,False,6,{}
+10,random,10,careful,random,0,0.0,0,0,False,False,4,{}
+11,random,10,careful,random,0,0.0,0,0,False,False,5,{}
+0,random,10,careful,random,1,0.1,0,0,False,False,4,{}
+1,random,10,careful,random,1,0.1,14,14,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 6}"
+2,random,10,careful,random,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,careful,random,1,0.1,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,careful,random,1,0.1,0,0,False,False,5,{}
+5,random,10,careful,random,1,0.1,16,16,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 8}"
+6,random,10,careful,random,1,0.1,14,14,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 6}"
+7,random,10,careful,random,1,0.1,18,18,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 10}"
+8,random,10,careful,random,1,0.1,0,0,False,False,5,{}
+9,random,10,careful,random,1,0.1,0,0,False,False,6,{}
+10,random,10,careful,random,1,0.1,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+11,random,10,careful,random,1,0.1,0,0,False,False,5,{}
+0,random,10,careful,random,2,0.2,0,0,False,False,4,{}
+1,random,10,careful,random,2,0.2,26,26,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""ORPHAN_BODY_REF"": 10}"
+2,random,10,careful,random,2,0.2,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,careful,random,2,0.2,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,careful,random,2,0.2,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+5,random,10,careful,random,2,0.2,16,16,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 8}"
+6,random,10,careful,random,2,0.2,10,10,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+7,random,10,careful,random,2,0.2,18,18,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 10}"
+8,random,10,careful,random,2,0.2,0,0,False,False,5,{}
+9,random,10,careful,random,2,0.2,0,0,False,False,6,{}
+10,random,10,careful,random,2,0.2,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+11,random,10,careful,random,2,0.2,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+0,random,10,careful,random,3,0.3,0,0,False,False,4,{}
+1,random,10,careful,random,3,0.3,26,26,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""ORPHAN_BODY_REF"": 10}"
+2,random,10,careful,random,3,0.3,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,careful,random,3,0.3,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,careful,random,3,0.3,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+5,random,10,careful,random,3,0.3,16,16,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 8}"
+6,random,10,careful,random,3,0.3,10,10,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+7,random,10,careful,random,3,0.3,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+8,random,10,careful,random,3,0.3,0,0,False,False,5,{}
+9,random,10,careful,random,3,0.3,0,0,False,False,6,{}
+10,random,10,careful,random,3,0.3,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+11,random,10,careful,random,3,0.3,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+0,random,10,careful,random,4,0.4,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+1,random,10,careful,random,4,0.4,26,26,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""ORPHAN_BODY_REF"": 10}"
+2,random,10,careful,random,4,0.4,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,careful,random,4,0.4,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,careful,random,4,0.4,10,10,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+5,random,10,careful,random,4,0.4,14,14,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 6}"
+6,random,10,careful,random,4,0.4,10,10,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+7,random,10,careful,random,4,0.4,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+8,random,10,careful,random,4,0.4,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+9,random,10,careful,random,4,0.4,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+10,random,10,careful,random,4,0.4,12,12,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+11,random,10,careful,random,4,0.4,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+0,random,10,careful,random,5,0.5,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+1,random,10,careful,random,5,0.5,26,26,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""ORPHAN_BODY_REF"": 10}"
+2,random,10,careful,random,5,0.5,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,careful,random,5,0.5,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,careful,random,5,0.5,10,10,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+5,random,10,careful,random,5,0.5,14,14,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 6}"
+6,random,10,careful,random,5,0.5,10,10,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+7,random,10,careful,random,5,0.5,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+8,random,10,careful,random,5,0.5,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+9,random,10,careful,random,5,0.5,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+10,random,10,careful,random,5,0.5,12,12,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+11,random,10,careful,random,5,0.5,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+0,random,10,careful,random,6,0.6,8,8,True,False,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+1,random,10,careful,random,6,0.6,26,26,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""ORPHAN_BODY_REF"": 10}"
+2,random,10,careful,random,6,0.6,10,10,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+3,random,10,careful,random,6,0.6,12,12,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+4,random,10,careful,random,6,0.6,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+5,random,10,careful,random,6,0.6,10,10,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+6,random,10,careful,random,6,0.6,10,10,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+7,random,10,careful,random,6,0.6,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+8,random,10,careful,random,6,0.6,8,8,True,False,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+9,random,10,careful,random,6,0.6,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+10,random,10,careful,random,6,0.6,12,12,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+11,random,10,careful,random,6,0.6,10,10,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+0,random,10,careful,random,7,0.7,2,2,True,True,4,"{""ORPHAN_BODY_REF"": 2}"
+1,random,10,careful,random,7,0.7,26,26,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""ORPHAN_BODY_REF"": 10}"
+2,random,10,careful,random,7,0.7,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+3,random,10,careful,random,7,0.7,8,8,True,False,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+4,random,10,careful,random,7,0.7,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+5,random,10,careful,random,7,0.7,10,10,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+6,random,10,careful,random,7,0.7,8,8,True,False,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+7,random,10,careful,random,7,0.7,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+8,random,10,careful,random,7,0.7,8,8,True,False,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+9,random,10,careful,random,7,0.7,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+10,random,10,careful,random,7,0.7,8,8,True,False,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+11,random,10,careful,random,7,0.7,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+0,random,10,careful,random,8,0.8,0,0,False,False,4,{}
+1,random,10,careful,random,8,0.8,2,2,True,True,4,"{""ORPHAN_BODY_REF"": 2}"
+2,random,10,careful,random,8,0.8,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+3,random,10,careful,random,8,0.8,8,8,True,False,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+4,random,10,careful,random,8,0.8,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+5,random,10,careful,random,8,0.8,8,8,True,False,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+6,random,10,careful,random,8,0.8,8,8,True,False,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+7,random,10,careful,random,8,0.8,24,24,True,True,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""ORPHAN_BODY_REF"": 8}"
+8,random,10,careful,random,8,0.8,8,8,True,False,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+9,random,10,careful,random,8,0.8,8,8,True,False,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+10,random,10,careful,random,8,0.8,0,0,False,False,4,{}
+11,random,10,careful,random,8,0.8,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+0,random,10,careful,random,9,0.9,0,0,False,False,4,{}
+1,random,10,careful,random,9,0.9,2,2,True,True,4,"{""ORPHAN_BODY_REF"": 2}"
+2,random,10,careful,random,9,0.9,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+3,random,10,careful,random,9,0.9,0,0,False,False,6,{}
+4,random,10,careful,random,9,0.9,0,0,False,False,5,{}
+5,random,10,careful,random,9,0.9,2,2,True,True,7,"{""ORPHAN_BODY_REF"": 2}"
+6,random,10,careful,random,9,0.9,0,0,False,False,6,{}
+7,random,10,careful,random,9,0.9,0,0,False,False,5,{}
+8,random,10,careful,random,9,0.9,8,8,True,False,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+9,random,10,careful,random,9,0.9,0,0,False,False,6,{}
+10,random,10,careful,random,9,0.9,0,0,False,False,4,{}
+11,random,10,careful,random,9,0.9,0,0,False,False,5,{}
+0,random,10,careful,random,10,1.0,0,0,False,False,4,{}
+1,random,10,careful,random,10,1.0,0,0,False,False,4,{}
+2,random,10,careful,random,10,1.0,0,0,False,False,5,{}
+3,random,10,careful,random,10,1.0,0,0,False,False,6,{}
+4,random,10,careful,random,10,1.0,0,0,False,False,5,{}
+5,random,10,careful,random,10,1.0,0,0,False,False,7,{}
+6,random,10,careful,random,10,1.0,0,0,False,False,6,{}
+7,random,10,careful,random,10,1.0,0,0,False,False,5,{}
+8,random,10,careful,random,10,1.0,0,0,False,False,5,{}
+9,random,10,careful,random,10,1.0,0,0,False,False,6,{}
+10,random,10,careful,random,10,1.0,0,0,False,False,4,{}
+11,random,10,careful,random,10,1.0,0,0,False,False,5,{}
+0,random,10,forging,informed,0,0.0,0,0,False,False,4,{}
+1,random,10,forging,informed,0,0.0,0,0,False,False,4,{}
+2,random,10,forging,informed,0,0.0,0,0,False,False,5,{}
+3,random,10,forging,informed,0,0.0,0,0,False,False,6,{}
+4,random,10,forging,informed,0,0.0,0,0,False,False,5,{}
+5,random,10,forging,informed,0,0.0,0,0,False,False,7,{}
+6,random,10,forging,informed,0,0.0,0,0,False,False,6,{}
+7,random,10,forging,informed,0,0.0,0,0,False,False,5,{}
+8,random,10,forging,informed,0,0.0,0,0,False,False,5,{}
+9,random,10,forging,informed,0,0.0,0,0,False,False,6,{}
+10,random,10,forging,informed,0,0.0,0,0,False,False,4,{}
+11,random,10,forging,informed,0,0.0,0,0,False,False,5,{}
+0,random,10,forging,informed,1,0.1,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+1,random,10,forging,informed,1,0.1,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+2,random,10,forging,informed,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,forging,informed,1,0.1,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,forging,informed,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+5,random,10,forging,informed,1,0.1,16,16,True,False,7,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+6,random,10,forging,informed,1,0.1,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+7,random,10,forging,informed,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+8,random,10,forging,informed,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+9,random,10,forging,informed,1,0.1,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+10,random,10,forging,informed,1,0.1,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+11,random,10,forging,informed,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+0,random,10,forging,informed,2,0.2,8,8,True,False,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+1,random,10,forging,informed,2,0.2,8,8,True,False,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+2,random,10,forging,informed,2,0.2,8,8,True,False,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+3,random,10,forging,informed,2,0.2,12,12,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+4,random,10,forging,informed,2,0.2,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+5,random,10,forging,informed,2,0.2,14,14,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 6}"
+6,random,10,forging,informed,2,0.2,12,12,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+7,random,10,forging,informed,2,0.2,10,10,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+8,random,10,forging,informed,2,0.2,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+9,random,10,forging,informed,2,0.2,10,10,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+10,random,10,forging,informed,2,0.2,12,12,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+11,random,10,forging,informed,2,0.2,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+0,random,10,forging,informed,3,0.3,2,2,True,True,4,"{""ORPHAN_BODY_REF"": 2}"
+1,random,10,forging,informed,3,0.3,2,2,True,True,4,"{""ORPHAN_BODY_REF"": 2}"
+2,random,10,forging,informed,3,0.3,4,4,True,True,5,"{""ORPHAN_BODY_REF"": 4}"
+3,random,10,forging,informed,3,0.3,8,8,True,True,6,"{""ORPHAN_BODY_REF"": 8}"
+4,random,10,forging,informed,3,0.3,4,4,True,True,5,"{""ORPHAN_BODY_REF"": 4}"
+5,random,10,forging,informed,3,0.3,10,10,True,True,7,"{""ORPHAN_BODY_REF"": 10}"
+6,random,10,forging,informed,3,0.3,6,6,True,True,6,"{""ORPHAN_BODY_REF"": 6}"
+7,random,10,forging,informed,3,0.3,8,8,True,True,5,"{""ORPHAN_BODY_REF"": 8}"
+8,random,10,forging,informed,3,0.3,8,8,True,True,5,"{""ORPHAN_BODY_REF"": 8}"
+9,random,10,forging,informed,3,0.3,6,6,True,True,6,"{""ORPHAN_BODY_REF"": 6}"
+10,random,10,forging,informed,3,0.3,4,4,True,True,4,"{""ORPHAN_BODY_REF"": 4}"
+11,random,10,forging,informed,3,0.3,10,10,True,True,5,"{""ORPHAN_BODY_REF"": 10}"
+0,random,10,forging,informed,4,0.4,0,0,False,False,4,{}
+1,random,10,forging,informed,4,0.4,0,0,False,False,4,{}
+2,random,10,forging,informed,4,0.4,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+3,random,10,forging,informed,4,0.4,4,4,True,True,6,"{""ORPHAN_BODY_REF"": 4}"
+4,random,10,forging,informed,4,0.4,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+5,random,10,forging,informed,4,0.4,6,6,True,True,7,"{""ORPHAN_BODY_REF"": 6}"
+6,random,10,forging,informed,4,0.4,4,4,True,True,6,"{""ORPHAN_BODY_REF"": 4}"
+7,random,10,forging,informed,4,0.4,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+8,random,10,forging,informed,4,0.4,4,4,True,True,5,"{""ORPHAN_BODY_REF"": 4}"
+9,random,10,forging,informed,4,0.4,4,4,True,True,6,"{""ORPHAN_BODY_REF"": 4}"
+10,random,10,forging,informed,4,0.4,0,0,False,False,4,{}
+11,random,10,forging,informed,4,0.4,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+0,random,10,forging,informed,5,0.5,0,0,False,False,4,{}
+1,random,10,forging,informed,5,0.5,0,0,False,False,4,{}
+2,random,10,forging,informed,5,0.5,0,0,False,False,5,{}
+3,random,10,forging,informed,5,0.5,2,2,True,True,6,"{""ORPHAN_BODY_REF"": 2}"
+4,random,10,forging,informed,5,0.5,0,0,False,False,5,{}
+5,random,10,forging,informed,5,0.5,4,4,True,True,7,"{""ORPHAN_BODY_REF"": 4}"
+6,random,10,forging,informed,5,0.5,2,2,True,True,6,"{""ORPHAN_BODY_REF"": 2}"
+7,random,10,forging,informed,5,0.5,0,0,False,False,5,{}
+8,random,10,forging,informed,5,0.5,0,0,False,False,5,{}
+9,random,10,forging,informed,5,0.5,2,2,True,True,6,"{""ORPHAN_BODY_REF"": 2}"
+10,random,10,forging,informed,5,0.5,0,0,False,False,4,{}
+11,random,10,forging,informed,5,0.5,0,0,False,False,5,{}
+0,random,10,forging,informed,6,0.6,0,0,False,False,4,{}
+1,random,10,forging,informed,6,0.6,0,0,False,False,4,{}
+2,random,10,forging,informed,6,0.6,0,0,False,False,5,{}
+3,random,10,forging,informed,6,0.6,0,0,False,False,6,{}
+4,random,10,forging,informed,6,0.6,0,0,False,False,5,{}
+5,random,10,forging,informed,6,0.6,2,2,True,True,7,"{""ORPHAN_BODY_REF"": 2}"
+6,random,10,forging,informed,6,0.6,0,0,False,False,6,{}
+7,random,10,forging,informed,6,0.6,0,0,False,False,5,{}
+8,random,10,forging,informed,6,0.6,0,0,False,False,5,{}
+9,random,10,forging,informed,6,0.6,0,0,False,False,6,{}
+10,random,10,forging,informed,6,0.6,0,0,False,False,4,{}
+11,random,10,forging,informed,6,0.6,0,0,False,False,5,{}
+0,random,10,forging,informed,7,0.7,0,0,False,False,4,{}
+1,random,10,forging,informed,7,0.7,0,0,False,False,4,{}
+2,random,10,forging,informed,7,0.7,0,0,False,False,5,{}
+3,random,10,forging,informed,7,0.7,0,0,False,False,6,{}
+4,random,10,forging,informed,7,0.7,0,0,False,False,5,{}
+5,random,10,forging,informed,7,0.7,0,0,False,False,7,{}
+6,random,10,forging,informed,7,0.7,0,0,False,False,6,{}
+7,random,10,forging,informed,7,0.7,0,0,False,False,5,{}
+8,random,10,forging,informed,7,0.7,0,0,False,False,5,{}
+9,random,10,forging,informed,7,0.7,0,0,False,False,6,{}
+10,random,10,forging,informed,7,0.7,0,0,False,False,4,{}
+11,random,10,forging,informed,7,0.7,0,0,False,False,5,{}
+0,random,10,forging,informed,8,0.8,0,0,False,False,4,{}
+1,random,10,forging,informed,8,0.8,0,0,False,False,4,{}
+2,random,10,forging,informed,8,0.8,0,0,False,False,5,{}
+3,random,10,forging,informed,8,0.8,0,0,False,False,6,{}
+4,random,10,forging,informed,8,0.8,0,0,False,False,5,{}
+5,random,10,forging,informed,8,0.8,0,0,False,False,7,{}
+6,random,10,forging,informed,8,0.8,0,0,False,False,6,{}
+7,random,10,forging,informed,8,0.8,0,0,False,False,5,{}
+8,random,10,forging,informed,8,0.8,0,0,False,False,5,{}
+9,random,10,forging,informed,8,0.8,0,0,False,False,6,{}
+10,random,10,forging,informed,8,0.8,0,0,False,False,4,{}
+11,random,10,forging,informed,8,0.8,0,0,False,False,5,{}
+0,random,10,forging,informed,9,0.9,0,0,False,False,4,{}
+1,random,10,forging,informed,9,0.9,0,0,False,False,4,{}
+2,random,10,forging,informed,9,0.9,0,0,False,False,5,{}
+3,random,10,forging,informed,9,0.9,0,0,False,False,6,{}
+4,random,10,forging,informed,9,0.9,0,0,False,False,5,{}
+5,random,10,forging,informed,9,0.9,0,0,False,False,7,{}
+6,random,10,forging,informed,9,0.9,0,0,False,False,6,{}
+7,random,10,forging,informed,9,0.9,0,0,False,False,5,{}
+8,random,10,forging,informed,9,0.9,0,0,False,False,5,{}
+9,random,10,forging,informed,9,0.9,0,0,False,False,6,{}
+10,random,10,forging,informed,9,0.9,0,0,False,False,4,{}
+11,random,10,forging,informed,9,0.9,0,0,False,False,5,{}
+0,random,10,forging,informed,10,1.0,0,0,False,False,4,{}
+1,random,10,forging,informed,10,1.0,0,0,False,False,4,{}
+2,random,10,forging,informed,10,1.0,0,0,False,False,5,{}
+3,random,10,forging,informed,10,1.0,0,0,False,False,6,{}
+4,random,10,forging,informed,10,1.0,0,0,False,False,5,{}
+5,random,10,forging,informed,10,1.0,0,0,False,False,7,{}
+6,random,10,forging,informed,10,1.0,0,0,False,False,6,{}
+7,random,10,forging,informed,10,1.0,0,0,False,False,5,{}
+8,random,10,forging,informed,10,1.0,0,0,False,False,5,{}
+9,random,10,forging,informed,10,1.0,0,0,False,False,6,{}
+10,random,10,forging,informed,10,1.0,0,0,False,False,4,{}
+11,random,10,forging,informed,10,1.0,0,0,False,False,5,{}
+0,random,10,forging,random,0,0.0,0,0,False,False,4,{}
+1,random,10,forging,random,0,0.0,0,0,False,False,4,{}
+2,random,10,forging,random,0,0.0,0,0,False,False,5,{}
+3,random,10,forging,random,0,0.0,0,0,False,False,6,{}
+4,random,10,forging,random,0,0.0,0,0,False,False,5,{}
+5,random,10,forging,random,0,0.0,0,0,False,False,7,{}
+6,random,10,forging,random,0,0.0,0,0,False,False,6,{}
+7,random,10,forging,random,0,0.0,0,0,False,False,5,{}
+8,random,10,forging,random,0,0.0,0,0,False,False,5,{}
+9,random,10,forging,random,0,0.0,0,0,False,False,6,{}
+10,random,10,forging,random,0,0.0,0,0,False,False,4,{}
+11,random,10,forging,random,0,0.0,0,0,False,False,5,{}
+0,random,10,forging,random,1,0.1,0,0,False,False,4,{}
+1,random,10,forging,random,1,0.1,14,14,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 6}"
+2,random,10,forging,random,1,0.1,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,forging,random,1,0.1,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,forging,random,1,0.1,0,0,False,False,5,{}
+5,random,10,forging,random,1,0.1,16,16,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 8}"
+6,random,10,forging,random,1,0.1,14,14,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 6}"
+7,random,10,forging,random,1,0.1,18,18,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 10}"
+8,random,10,forging,random,1,0.1,0,0,False,False,5,{}
+9,random,10,forging,random,1,0.1,0,0,False,False,6,{}
+10,random,10,forging,random,1,0.1,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+11,random,10,forging,random,1,0.1,0,0,False,False,5,{}
+0,random,10,forging,random,2,0.2,0,0,False,False,4,{}
+1,random,10,forging,random,2,0.2,26,26,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""ORPHAN_BODY_REF"": 10}"
+2,random,10,forging,random,2,0.2,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,forging,random,2,0.2,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,forging,random,2,0.2,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+5,random,10,forging,random,2,0.2,16,16,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 8}"
+6,random,10,forging,random,2,0.2,10,10,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+7,random,10,forging,random,2,0.2,18,18,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 10}"
+8,random,10,forging,random,2,0.2,0,0,False,False,5,{}
+9,random,10,forging,random,2,0.2,0,0,False,False,6,{}
+10,random,10,forging,random,2,0.2,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+11,random,10,forging,random,2,0.2,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+0,random,10,forging,random,3,0.3,0,0,False,False,4,{}
+1,random,10,forging,random,3,0.3,26,26,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""ORPHAN_BODY_REF"": 10}"
+2,random,10,forging,random,3,0.3,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,forging,random,3,0.3,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,forging,random,3,0.3,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+5,random,10,forging,random,3,0.3,16,16,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 8}"
+6,random,10,forging,random,3,0.3,10,10,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+7,random,10,forging,random,3,0.3,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+8,random,10,forging,random,3,0.3,0,0,False,False,5,{}
+9,random,10,forging,random,3,0.3,0,0,False,False,6,{}
+10,random,10,forging,random,3,0.3,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+11,random,10,forging,random,3,0.3,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+0,random,10,forging,random,4,0.4,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+1,random,10,forging,random,4,0.4,26,26,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""ORPHAN_BODY_REF"": 10}"
+2,random,10,forging,random,4,0.4,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,forging,random,4,0.4,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,forging,random,4,0.4,10,10,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+5,random,10,forging,random,4,0.4,14,14,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 6}"
+6,random,10,forging,random,4,0.4,10,10,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+7,random,10,forging,random,4,0.4,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+8,random,10,forging,random,4,0.4,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+9,random,10,forging,random,4,0.4,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+10,random,10,forging,random,4,0.4,12,12,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+11,random,10,forging,random,4,0.4,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+0,random,10,forging,random,5,0.5,16,16,True,False,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+1,random,10,forging,random,5,0.5,26,26,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""ORPHAN_BODY_REF"": 10}"
+2,random,10,forging,random,5,0.5,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+3,random,10,forging,random,5,0.5,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+4,random,10,forging,random,5,0.5,10,10,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+5,random,10,forging,random,5,0.5,14,14,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 6}"
+6,random,10,forging,random,5,0.5,10,10,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+7,random,10,forging,random,5,0.5,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+8,random,10,forging,random,5,0.5,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+9,random,10,forging,random,5,0.5,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+10,random,10,forging,random,5,0.5,12,12,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+11,random,10,forging,random,5,0.5,16,16,True,False,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+0,random,10,forging,random,6,0.6,8,8,True,False,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+1,random,10,forging,random,6,0.6,26,26,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""ORPHAN_BODY_REF"": 10}"
+2,random,10,forging,random,6,0.6,10,10,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+3,random,10,forging,random,6,0.6,12,12,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+4,random,10,forging,random,6,0.6,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+5,random,10,forging,random,6,0.6,10,10,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+6,random,10,forging,random,6,0.6,10,10,True,True,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+7,random,10,forging,random,6,0.6,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+8,random,10,forging,random,6,0.6,8,8,True,False,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+9,random,10,forging,random,6,0.6,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+10,random,10,forging,random,6,0.6,12,12,True,True,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+11,random,10,forging,random,6,0.6,10,10,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+0,random,10,forging,random,7,0.7,2,2,True,True,4,"{""ORPHAN_BODY_REF"": 2}"
+1,random,10,forging,random,7,0.7,26,26,True,True,4,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""ORPHAN_BODY_REF"": 10}"
+2,random,10,forging,random,7,0.7,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+3,random,10,forging,random,7,0.7,8,8,True,False,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+4,random,10,forging,random,7,0.7,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+5,random,10,forging,random,7,0.7,10,10,True,True,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 2}"
+6,random,10,forging,random,7,0.7,8,8,True,False,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+7,random,10,forging,random,7,0.7,12,12,True,True,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4, ""ORPHAN_BODY_REF"": 4}"
+8,random,10,forging,random,7,0.7,8,8,True,False,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+9,random,10,forging,random,7,0.7,16,16,True,False,6,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8}"
+10,random,10,forging,random,7,0.7,8,8,True,False,4,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+11,random,10,forging,random,7,0.7,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+0,random,10,forging,random,8,0.8,0,0,False,False,4,{}
+1,random,10,forging,random,8,0.8,2,2,True,True,4,"{""ORPHAN_BODY_REF"": 2}"
+2,random,10,forging,random,8,0.8,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+3,random,10,forging,random,8,0.8,8,8,True,False,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+4,random,10,forging,random,8,0.8,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+5,random,10,forging,random,8,0.8,8,8,True,False,7,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+6,random,10,forging,random,8,0.8,8,8,True,False,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+7,random,10,forging,random,8,0.8,24,24,True,True,5,"{""DANGLING_RECV"": 8, ""DANGLING_SEND"": 8, ""ORPHAN_BODY_REF"": 8}"
+8,random,10,forging,random,8,0.8,8,8,True,False,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+9,random,10,forging,random,8,0.8,8,8,True,False,6,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+10,random,10,forging,random,8,0.8,0,0,False,False,4,{}
+11,random,10,forging,random,8,0.8,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+0,random,10,forging,random,9,0.9,0,0,False,False,4,{}
+1,random,10,forging,random,9,0.9,2,2,True,True,4,"{""ORPHAN_BODY_REF"": 2}"
+2,random,10,forging,random,9,0.9,2,2,True,True,5,"{""ORPHAN_BODY_REF"": 2}"
+3,random,10,forging,random,9,0.9,0,0,False,False,6,{}
+4,random,10,forging,random,9,0.9,0,0,False,False,5,{}
+5,random,10,forging,random,9,0.9,2,2,True,True,7,"{""ORPHAN_BODY_REF"": 2}"
+6,random,10,forging,random,9,0.9,0,0,False,False,6,{}
+7,random,10,forging,random,9,0.9,0,0,False,False,5,{}
+8,random,10,forging,random,9,0.9,8,8,True,False,5,"{""DANGLING_RECV"": 4, ""DANGLING_SEND"": 4}"
+9,random,10,forging,random,9,0.9,0,0,False,False,6,{}
+10,random,10,forging,random,9,0.9,0,0,False,False,4,{}
+11,random,10,forging,random,9,0.9,0,0,False,False,5,{}
+0,random,10,forging,random,10,1.0,0,0,False,False,4,{}
+1,random,10,forging,random,10,1.0,0,0,False,False,4,{}
+2,random,10,forging,random,10,1.0,0,0,False,False,5,{}
+3,random,10,forging,random,10,1.0,0,0,False,False,6,{}
+4,random,10,forging,random,10,1.0,0,0,False,False,5,{}
+5,random,10,forging,random,10,1.0,0,0,False,False,7,{}
+6,random,10,forging,random,10,1.0,0,0,False,False,6,{}
+7,random,10,forging,random,10,1.0,0,0,False,False,5,{}
+8,random,10,forging,random,10,1.0,0,0,False,False,5,{}
+9,random,10,forging,random,10,1.0,0,0,False,False,6,{}
+10,random,10,forging,random,10,1.0,0,0,False,False,4,{}
+11,random,10,forging,random,10,1.0,0,0,False,False,5,{}
