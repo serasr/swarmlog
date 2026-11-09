@@ -1,4 +1,4 @@
-# swarmlog — cross-corroboration for tamper-resistant swarm oversight
+# SWARMLOG: cross-corroboration for tamper-resistant swarm oversight
 
 Swarm Alignment Hackathon, November 2026 · Track 4 (Multi-Agent Oversight and Control)
 
@@ -43,8 +43,8 @@ No API key needed for any of the above.
 
 ## Threat model
 
-A colluding set **C** can do anything to the logs of its own members — delete,
-edit, renumber, fabricate — and coordinates perfectly within C. It **cannot
+A colluding set **C** can do anything to the logs of its own members: delete,
+edit, renumber, fabricate, and coordinates perfectly within C. It **cannot
 touch the log of any agent outside C**. That asymmetry is the entire experiment.
 
 Three adversaries, in increasing competence:
@@ -56,7 +56,7 @@ Three adversaries, in increasing competence:
 | `forging` | careful, plus benign filler entries so activity volume still looks right |
 
 Colluders are chosen two ways. `random` is an optimistic baseline; `informed`
-is the worst case for the defender — it takes the agents who touch the most
+is the worst case for the defender, it takes the agents who touch the most
 tainted material first.
 
 ## The checker
@@ -91,7 +91,7 @@ Careful adversary, informed selection:
 | 0.6 | 0.08 | 0.08 |
 | 0.7+ | 0.00 | 0.00 |
 
-Mean required closure: 5.2 of 10 agents (0.52) — and detection collapses
+Mean required closure: 5.2 of 10 agents (0.52), and detection collapses
 exactly there. The combinatorial prediction holds empirically.
 
 Three findings worth writing up:
@@ -101,7 +101,7 @@ Three findings worth writing up:
    probability 1, with no monitor, no model, and no access to message content
    beyond identifiers.
 2. **Detection ≠ attribution.** At 10% collusion the checker fires every time
-   but implicates the attack in 0% of runs — an investigator learns something
+   but implicates the attack in 0% of runs, an investigator learns something
    is wrong, not what. Attribution needs ~30%, a *higher* bar than detection.
    The two should not be reported as one number.
 3. **Sloppy scrubbing is caught at any collusion level,** including 100%.
@@ -129,9 +129,9 @@ The gap between the two is the headline number if it exists.
 This maps which log-tampering attacks evade which corroboration rules, which is
 also a map of how to evade oversight. It is published on the view that the
 defensive value dominates: the attacks are already demonstrated in the wild
-(METR, 2026), the required collusion fractions are large, and the main result —
+(METR, 2026), the required collusion fractions are large, and the main result is
 that an adversary must control the full reference closure, not just the
-participants — is information defenders need in order to size their logging.
+participants, is information defenders need in order to size their logging.
 See the report appendix for the full argument.
 
 ## Prior work
