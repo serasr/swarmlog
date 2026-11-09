@@ -154,12 +154,12 @@ python3 run_cover_story.py --agents 10 --k 6 --seeds 40 \
 ```
 
 ~26k input tokens per trial, one request per trial. Ten trials is roughly
-260k input tokens — a couple of dollars on Sonnet, a few minutes wall clock.
+260k input tokens, a couple of dollars on Sonnet, a few minutes wall clock.
 Each trial is appended to `out/live_trials.jsonl` as it completes, so a rate
 limit halfway through does not cost you the trials already paid for, and a
 failed call is skipped rather than killing the run.
 
-Output: a detection rate, and `estimated_competence` — where real colluders
+Output: a detection rate, and `estimated_competence`, where real colluders
 land on the programmatic competence axis. That single number is the headline.
 
 The live path is covered offline by `tests/test_cover_story.py` against
